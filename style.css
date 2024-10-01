@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#parent {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  height: 90vh;
+  width: 70vw;
+  background-color: #000;
+  /* border: 10px solid black; */
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.box-1 {
+  height: 65%;
+  width: 32.2%;
+  background-color: #f05454;
+  border-top-left-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 500%;
+}
+
+.box-2 {
+  height: 25%;
+  width: 32.2%;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box-3 {
+  height: 65%;
+  width: 32.2%;
+  background-color: grey;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 500%;
+}
+
+.box-4 {
+  height: 34%;
+  width: 62%;
+  background-color: plum;
+  border-bottom-left-radius: 20px;
+  transform: translateY(5%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* .box-5 {
+  height: 34%;
+  width: 32.5%;
+  background-color: aquamarine;
+  align-self: flex-start;
+} */
+
+.box-6 {
+  height: 34%;
+  width: 37%;
+  background-color: #8fd6e1;
+  border-bottom-right-radius: 20px;
+  transform: translateY(5%);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.center-div {
+  height: 35vh;
+  width: 22.95vw;
+  background-color: rgba(169, 169, 169, 0.075);
+  position: relative;
+  right: 46.5%;
+  transform: translateY(-12%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  background-image: linear-gradient(#000, #000, #fff);
+  font-family: cursive;
+  font-size: xx-large;
+}
